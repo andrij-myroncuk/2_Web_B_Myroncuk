@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabulky</title>
+    <style>
+        td, th {
+            border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Výsledky soutěže</th>
+            </tr>
+        <tr>
+            <th>Škola</th>
+            <th>Jméno</th>
+            <th>Umístění</th>
+            <th>Body</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td rowspan="2">Delta</td>
+            <td>Pepa</td>
+            <td>2</td>
+            <td>250</td>
+        </tr>
+        <tr>
+            <td>Kamila</td>
+            <td>1</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Kyberna</td>
+            <td>Libor</td>
+            <td>8</td>
+            <td>125</td>
+        </tr>
+        <tr>
+            <td>Gabriela</td>
+            <td>10</td>
+            <td>100</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="3">Součet bodů</td>
+            <td>775</td>
+        </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

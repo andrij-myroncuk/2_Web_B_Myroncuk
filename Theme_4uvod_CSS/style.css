@@ -1,3 +1,42 @@
 h1{
-    color: brown;
+    color: rgba(73, 8, 142, 0.6);
+    background-color: #e0d915;
+}
+p{
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50%  ;
+}
+body{
+    font-size: 20px;
+}
+/* ID a Class selektor*/
+
+.kurziva{
+    font-style: italic;
+    color: blueviolet 
+    ;
+}
+#special{
+    text-decoration: underline;
+    color: gold;
+    background-color: aqua;
+}
+.modra{
+    color: blue;
+}
+/* platí pouze pro nadpis h1 který má třídu super*/
+h1.super{
+    font-size: 50px;
+}
+
+div p{
+    color: gray;
+}
+div li{
+    color:gray
+}
+div > li{
+    color:red;
 }

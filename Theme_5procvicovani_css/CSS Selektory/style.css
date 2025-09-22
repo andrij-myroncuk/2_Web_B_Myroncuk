@@ -1,34 +1,54 @@
+/* 1 */
 header h1{
     color: chocolate;
     text-align: center;
 }
+/* 2 */
 header p{
     color: gray;
     font-style: italic;
 }
+/* 3 */
 ul{
     list-style-type: none;
     background-color: rgb(255, 0, 123);
 }
+/* 4 */
 ul .special{
     color: chartreuse;
 }
+/* 5 */
 .highlight{
     text-indent: bold;
-    color: brown;
+    color: gold;
 }
+/* 6 */
 .note{
     background-color: aliceblue;
 }
+/* 7 */
 #first-article h3{
     color: green;
 }
+/* 8 */
  td, th {
     border: 1px solid black;
     text-align: center;}
 table {
     border-collapse: collapse;
 }
+
+tr:nth-child(odd){
+    background-color: blueviolet;
+}
+tr:nth-child(even){
+    background-color: rgb(23, 225, 182);
+}
+/* 9  */
+.highlight{
+    text-decoration: underline;
+}
+/* 10 */
 #main-footer .emphasize{
     color: blue ;
 }

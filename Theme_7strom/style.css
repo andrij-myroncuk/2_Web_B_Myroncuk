@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.strom{
+  display: inline-table;
+  border: 2px solid gray;
+  background-color: white;
+  padding: 10px;
+  height: 470px;
+  margin: 10px 10px;
+}
+.stromy{
+  background-color: gainsboro;
+  height: 530px;
+}
+.nazev{
+  font-weight: bold;
+}
+.popis{
+  display: inline-block;
+  width: 150px;
+}
+.hodnota{
+  display: inline-block;
+  font-style: italic;
+text-align: center;
+}
+

@@ -1,0 +1,30 @@
+
+header{
+    background-color: aqua;
+    border: 3px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    text-align: center;
+    position: fixed ;
+    z-index: 1;
+    display: none;
+}
+main{
+    background-color: yellow;
+    /* position: absolute; */
+    top: 150px;
+    width: 100000px; ;
+}
+/* broken sh*t */
+.obrazek p{
+    position: absolute;
+    bottom: 0px;
+    /* right: 0px; */
+    color: red;
+}
+div{
+    width: 200px;
+}
+.obrazek img{
+    width: 200px;
+}

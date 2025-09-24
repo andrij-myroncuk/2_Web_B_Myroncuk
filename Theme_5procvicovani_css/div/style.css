@@ -2,3 +2,34 @@ html {
   height: 100%;
   width: 100%;
 }
+.body, .footer, .header{
+  background-color: bisque;
+  margin: 5px;
+  border: 5px solid black;
+  border-left: 10px solid black;
+}
+.header{
+  text-align: center;
+}
+.body{
+  text-align: justify;
+}
+.body .sloupec a {
+  color: red;
+  text-align: center;
+  display: block;
+
+}
+.sloupce h1{
+  font-style: italic;
+}
+.sloupec{
+  display: inline-block;
+  width: 33%;
+
+}
+.sloupce{
+  margin: auto;
+  max-width: 1600px;
+  min-width: 505px;
+}

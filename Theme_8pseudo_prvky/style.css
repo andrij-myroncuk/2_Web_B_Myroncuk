@@ -1,0 +1,52 @@
+a[target="_blank"]{
+    color: red;
+}
+a[href="https://seznam.cz/"]{
+    font-weight: bold;
+}
+a + a{
+    font-style: italic;
+}
+h1 + a {
+    font-style: italic;
+}
+h1 ~ a{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* pseudotřídy */
+a:link{
+    background-color: yellow;
+}
+a:visited{
+    background-color: black;
+}
+a:active{
+    background-color: red;
+}
+a:hover{
+    background-color: green;
+}
+button:hover{
+    background-color: blue;
+}
+a:first-child{
+    background-color: blueviolet;
+}
+p::first-line{
+    color: blue;
+}
+p::first-letter{
+    color: red;
+}
+p::before{
+    content: ":-)";
+    font-size: 50px;
+}
+/* content */
+ol{
+    list-style-type: "👌";
+}
+li:hover:before{
+    content:"🌹"
+    
+}

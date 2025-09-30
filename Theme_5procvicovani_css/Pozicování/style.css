@@ -13,6 +13,9 @@ header {
   background: whitesmoke;
   height: 80px;
   text-align: center;
+  position: fixed;
+  display: inline-block;
+  
 }
 
 header img {

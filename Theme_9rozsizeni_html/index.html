@@ -7,7 +7,41 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <form action="Ubytovací formulář">
+      <label for="name">Jméno a příjmení</label>
+      <input type="text" id="name" name="jmeno">
+        <br>
+      <label for="mail">e-mail</label>
+      <input type="email" id="mail" name="mail">
+      
+      <fieldset id="hotel">
+        <label for="smoke">jste kuřák</label>
+        <input type="checkbox" id="smoke" value="yes" name="smoker">
+        <br>
+       <label for="prijezd">příjezd</label>
+        <input type="date" id="prijetd">
+        <label for="odjezd">odjezd</label>
+        <input type="date" id="odjezd">
     
+      </fieldset>
+      <label for="hotel">jaký hotel navštívíte</label>
+      <select name="hotel" id="hotel">
+        <option value="hk">Hradec Králové</option>
+        <option value="pr">Pardubice</option>
+        <option value="prg">Praha</option>
+      </select>
 
+      <br>
+      <label for="breakfast">snídaně</label>
+      <input id="breakfast" name="food" type="radio" value="breakfast">
+       <label for="lunch">oběd</label>
+      <input id="lunch" name="food" type="radio" value="lunch">
+       <label for="lunch">večeře</label>
+      <input id="gn" name="food" type="radio" value="gn">
+<br>
+      <input type="submit" value="odeslat">
+
+
+    </form>
   </body>
 </html>

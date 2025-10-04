@@ -28,7 +28,7 @@ header p{
 /* menu */
 #obsah nav{
 width: 200px;
-display: inline-block;
+display: inline-table;
 margin: none;
 padding: none;
 }
@@ -47,7 +47,7 @@ padding: none;
 }
 /* main */
 main{
-  margin: none;
+  margin-top: 15px;
   text-align: center;
   display: inline-table;
   border: 3px solid black;

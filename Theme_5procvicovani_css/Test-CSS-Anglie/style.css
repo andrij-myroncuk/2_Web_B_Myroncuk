@@ -26,8 +26,11 @@ header p{
   text-align: right;
 }
 /* menu */
-#obsah{
+#obsah nav{
 width: 200px;
+display: inline-block;
+margin: none;
+padding: none;
 }
 #obsah li{
   list-style-type: none;
@@ -35,20 +38,47 @@ width: 200px;
   background-color: blue;
   color: black;
   border: 3px solid black;
-  margin 
+  margin: none;
+  padding: none;
+}
+#obsah li:hover{
+  background-color: red;
+  color: white;
 }
 /* main */
 main{
-  display: inline-block;
+  margin: none;
+  text-align: center;
+  display: inline-table;
   border: 3px solid black;
   width: 1200px;
-
 }
 main h1{
   font-style: italic;
 }
-main img{
+#nazev p{
+  width: 32%;
+  display: inline-table;
+}
+#dejepis p{
+  display: inline;
+}
+#geografie img{
+  float: right;
+  text-align: right;
   width: 300px;
   height: 400px;
   margin-left: 20px;
+}
+#geografie{
+  display: inline-block;
+}
+/* footer */
+footer{
+  background-color: blue;
+  text-align: right;
+  color: white;
+  padding:5px 3px 5px;
+  margin: 5px 0px 0px 0px;
+  border: 3px solid black;
 }

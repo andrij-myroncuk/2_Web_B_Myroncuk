@@ -1,0 +1,60 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  img{
+    border: solid black ;
+  }
+  h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Gallery Section */
+  .gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .gallery-item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .gallery-item img {
+
+  }
+
+  .gallery-item img:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  @media only screeen and (max-width:1023px){
+
+  }
+  @media only screen and (max-width:767px){
+
+  }
+

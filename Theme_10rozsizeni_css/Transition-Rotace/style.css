@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Box styles */
+.rotate-box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+
+  transition: all 0.5s;
+}
+.rotate-box:hover{
+background-color: red;
+transform: rotate(45deg)  rotateX(50deg);
+
+
+}
+

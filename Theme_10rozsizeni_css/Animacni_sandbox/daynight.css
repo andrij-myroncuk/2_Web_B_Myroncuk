@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sky {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #87CEEB, #FFD580);
+  position: relative;
+}
+
+/* Slunce */
+.sun {
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  border-radius: 50%;
+}
+
+/* Měsíc */
+.moon {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  width: 80px;
+  height: 80px;
+  background: #eee;
+  border-radius: 50%;
+  opacity: 0;
+}

@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  color: white;
+}
+
+.title span {
+  display: inline-block;
+  font-size: 4rem;
+  margin: 0 5px;
+}

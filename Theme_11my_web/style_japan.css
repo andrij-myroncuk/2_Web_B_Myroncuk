@@ -46,7 +46,7 @@ body::before {
 .nav-menu {
   list-style: none;
   display: flex;
-  justify-content: flex-start;
+  justify-content: start;
   gap: 1rem;
   transition: gap 0.3s ease;
 }

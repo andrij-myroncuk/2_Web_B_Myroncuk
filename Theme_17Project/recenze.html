@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave a Review</title>
+    <link rel="stylesheet" href="./styles.css">
+
+
+<style>
+    .stars {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        gap: 5px;
+    }
+
+    .stars input {
+        display: none;
+    }
+
+    .stars label {
+        font-size: 2rem;
+        color: #ccc;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .stars input:checked ~ label,
+    .stars label:hover,
+    .stars label:hover ~ label {
+        color: #f39c12;
+    }
+</style>
+
+
+</head>
+<body>
+
+<section class="contact">
+    <div class="container">
+
+    <h1 class="section-title">Ohodnoďte naše služby</h1>
+    <p class="section-subtitle">Váš feedback nám pomáhá se zlepšit</p>
+
+    <div class="contact-form-wrapper">
+        <form id="reviewForm">
+
+            <!-- Service type -->
+             <div class="form-group">
+                <label>Jméno a Příjmení</label>
+                <input required  name="name" placeholder="Zadejte celé Jméno" type="text">
+            </div>
+
+              <div class="form-group">
+                <label>Email</label>
+                <input required type="email" name="mail" placeholder="Zadejte Email" type="text">
+            </div>
+
+            <div class="form-group">
+                <label>kterou službu jste použili?</label>
+                <select name="sluzba" required>
+                    <option value="">Vyberte službu</option>
+                    <option value="domacnost-clean">Úklid domácnosti</option>
+                    <option value="pravidelny-clean">Pravidelný úklid</option>
+                    <option value="general-clean">Generální úklid</option>
+                    <option value="okna-clean">Mytí oken</option>
+                    <option value="koupelna-clean">Čištění koupelny</option>
+                    <option value="kuchyn-clean">Úklid kuchyně</option>
+                </select>
+            </div>
+
+            <!-- Satisfaction -->
+            <div class="form-group">
+                <label>Jste spokojení s úklidem?</label>
+                <select name="satisfaction" required>
+                    <option value="">Vyberte možnost</option>
+                    <option value="very-satisfied">Velmi spokojen</option>
+                    <option value="satisfied">Spokojen</option>
+                    <option value="neutral">Neutrální</option>
+                    <option value="unsatisfied">Nespokojen</option>
+                    <option value="very-unsatisfied">Velmi nespokojen</option>
+                </select>
+            </div>
+
+            <!-- Star rating -->
+            <div class="form-group">
+                <label>Obecné hodnocení</label>
+                <div class="stars">
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">★</label>
+
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">★</label>
+
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">★</label>
+
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">★</label>
+
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">★</label>
+                </div>
+            </div>
+
+            <!-- Additional feedback -->
+            <div class="form-group">
+                <label>Poznámky</label>
+                <textarea name="feedback" rows="4" placeholder="Povězte v čem se můžem zlepšit..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Odeslat hodnocení</button>
+
+        </form>
+    </div>
+
+</div>
+
+</section>
+<script src="./recenze.js"></script>
+</body>
+</html>
